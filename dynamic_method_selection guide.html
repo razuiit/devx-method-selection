@@ -1,0 +1,916 @@
+<html>
+<head>
+  <title>Graph Print</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $("ul.mlist li").hide().filter(".y1x2").show();
+  $("ul.plist li").hide().filter(".senDM").show();
+  $("#l1a").click(function(){
+    $("ul.mlist li").hide().filter(".y1x2").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".senDM").show();
+      $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".senEO").show();
+      
+  });
+  });
+     });
+    $("#l1b").click(function(){
+    $("ul.mlist li").hide().filter(".y1x8").show();
+    $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".senCE").show();
+      $("#dms").click(function(){
+      $("ul.plist li").hide().filter(".senDMS").show();
+  });
+  });
+  });
+    $("#l1c").click(function(){
+    $("ul.mlist li").hide().filter(".y1x13").show();
+    $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".senCE2").show();
+  });
+  });
+    $("#l2a").click(function(){
+    $("ul.mlist li").hide().filter(".y2x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".affSvy").show();
+      $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".affEO").show();
+      $("#tas").click(function(){
+      $("ul.plist li").hide().filter(".affTas").show();
+  });
+  });
+  });
+  });
+    $("#l2b").click(function(){
+    $("ul.mlist li").hide().filter(".y2x2").show();
+    $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".affCE").show();
+  });
+  });
+    $("#l2c").click(function(){
+    $("ul.mlist li").hide().filter(".y2x8").show();
+    $("#dms").click(function(){
+      $("ul.plist li").hide().filter(".affDMS").show();
+  });
+  });
+    $("#l2d").click(function(){
+    $("ul.mlist li").hide().filter(".y2x12").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".affFLSvy").show();
+  });
+  });
+    $("#l2e").click(function(){
+    $("ul.mlist li").hide().filter(".y2x13").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".affFLSvy2").show();
+  });
+  });
+    $("#l3a").click(function(){
+    $("ul.mlist li").hide().filter(".y3x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".mdSvy").show();
+  });
+  });
+    $("#l3b").click(function(){
+    $("ul.mlist li").hide().filter(".y3x2").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".mdDM").show();
+      $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".mdCE").show();
+      $("#dms").click(function(){
+      $("ul.plist li").hide().filter(".mdDMS").show();
+  });
+  });
+  });
+  });
+    $("#l3c").click(function(){
+    $("ul.mlist li").hide().filter(".y3x3").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".mdFLSvy").show();
+  });
+  });
+    $("#l3d").click(function(){
+    $("ul.mlist li").hide().filter(".y3x9").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".mdFLSvy2").show();
+  });
+  });
+    $("#l4a").click(function(){
+    $("ul.mlist li").hide().filter(".y4x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".oemSvy").show();
+  });
+  });
+    $("#l4b").click(function(){
+    $("ul.mlist li").hide().filter(".y4x2").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".oemDM").show();
+      $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".oemEO").show();
+      $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".oemCE").show();
+  });
+  });
+  });
+  });
+    $("#l4c").click(function(){
+    $("ul.mlist li").hide().filter(".y4x5").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".oemABT").show();
+      $("#tas").click(function(){
+      $("ul.plist li").hide().filter(".oemTAS").show();
+  });
+  });
+  });
+    $("#l4d").click(function(){
+    $("ul.mlist li").hide().filter(".y4x7").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".oemABT2").show();
+  });
+  });
+    $("#l5a").click(function(){
+    $("ul.mlist li").hide().filter(".y5x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".dicSvy").show();
+  });
+  });
+    $("#l5b").click(function(){
+    $("ul.mlist li").hide().filter(".y5x3").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".dicFLSvy").show();
+  });
+  });
+    $("#l5c").click(function(){
+    $("ul.mlist li").hide().filter(".y5x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".dicEO").show();
+      $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".dicABT").show();
+      $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".dicCE").show();
+  });
+  });
+  });
+  });
+    $("#l5d").click(function(){
+    $("ul.mlist li").hide().filter(".y5x5").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".dicABT2").show();
+  });
+  });
+    $("#l5e").click(function(){
+    $("ul.mlist li").hide().filter(".y5x6").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".dicABT3").show();
+  });
+  });
+    $("#l5f").click(function(){
+    $("ul.mlist li").hide().filter(".y5x7").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".dicABT4").show();
+  });
+  });
+    $("#l5g").click(function(){
+    $("ul.mlist li").hide().filter(".y5x9").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".dicFLSvy2").show();
+  });
+  });
+    $("#l5h").click(function(){
+    $("ul.mlist li").hide().filter(".y5x10").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".dicFLSvy3").show();
+  });
+  });
+    $("#l5i").click(function(){
+    $("ul.mlist li").hide().filter(".y5x11").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".dicFLSvy4").show();
+      $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".dicCE2").show();
+  });
+  });
+  });
+    $("#l5j").click(function(){
+    $("ul.mlist li").hide().filter(".y5x14").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".dicABT5").show();
+  });
+  });
+    $("#l6a").click(function(){
+    $("ul.mlist li").hide().filter(".y6x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".piSvy").show();
+  });
+  });
+    $("#l6b").click(function(){
+    $("ul.mlist li").hide().filter(".y6x6").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".piABT").show();
+  });
+  });
+    $("#l6c").click(function(){
+    $("ul.mlist li").hide().filter(".y6x10").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".piFLSvy").show();
+  });
+  });
+    $("#l7a").click(function(){
+    $("ul.mlist li").hide().filter(".y7x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".scpSvy").show();
+  });
+  });
+    $("#l7b").click(function(){
+    $("ul.mlist li").hide().filter(".y7x6").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".scpFLSvy").show();
+  });
+  });
+    $("#l8a").click(function(){
+    $("ul.mlist li").hide().filter(".y8x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".univSvy").show();
+  });
+  });
+    $("#l8b").click(function(){
+    $("ul.mlist li").hide().filter(".y8x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".univEO").show();
+  });
+  });
+    $("#l9a").click(function(){
+    $("ul.mlist li").hide().filter(".y9x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".stimSvy").show();
+  });
+  });
+    $("#l9b").click(function(){
+    $("ul.mlist li").hide().filter(".y9x2").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".stimDM").show();
+      $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".stimEO").show();
+      $("#ce").click(function(){
+      $("ul.plist li").hide().filter(".stimCE").show();
+  });
+  });
+  });
+  });
+    $("#l9c").click(function(){
+    $("ul.mlist li").hide().filter(".y9x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".stimEO2").show();
+  });
+  });
+    $("#l9d").click(function(){
+    $("ul.mlist li").hide().filter(".y9x5").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".stimABT").show();
+  });
+  });
+    $("#l9e").click(function(){
+    $("ul.mlist li").hide().filter(".y9x6").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".stimDM2").show();
+  });
+  });
+    $("#l9f").click(function(){
+    $("ul.mlist li").hide().filter(".y9x7").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".stimABT2").show();
+  });
+  });
+    $("#l10a").click(function(){
+    $("ul.mlist li").hide().filter(".y10x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".pwrSvy").show();
+  });
+  });
+    $("#l10b").click(function(){
+    $("ul.mlist li").hide().filter(".y10x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".pwrEO").show();
+  });
+  });
+    $("#l10c").click(function(){
+    $("ul.mlist li").hide().filter(".y10x6").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".pwrDM").show();
+  });
+  });
+    $("#l11a").click(function(){
+    $("ul.mlist li").hide().filter(".y11x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".trdnSvy").show();
+  });
+  });
+    $("#l11b").click(function(){
+    $("ul.mlist li").hide().filter(".y11x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".trdnEO").show();
+  });
+  });
+    $("#l12a").click(function(){
+    $("ul.mlist li").hide().filter(".y12x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".bnvSvy").show();
+  });
+  });
+    $("#l12b").click(function(){
+    $("ul.mlist li").hide().filter(".y12x2").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".bnvDM").show();
+  });
+  });
+    $("#l12c").click(function(){
+    $("ul.mlist li").hide().filter(".y12x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".bnvEO").show();
+  });
+  });
+    $("#l13a").click(function(){
+    $("ul.mlist li").hide().filter(".y13x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".achSvy").show();
+  });
+  });
+    $("#l13b").click(function(){
+    $("ul.mlist li").hide().filter(".y13x2").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".achDM").show();
+  });
+  });
+    $("#l13c").click(function(){
+    $("ul.mlist li").hide().filter(".y13x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".achEO").show();
+  });
+  });
+    $("#l13d").click(function(){
+    $("ul.mlist li").hide().filter(".y13x6").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".achDM2").show();
+  });
+  });
+    $("#l13e").click(function(){
+    $("ul.mlist li").hide().filter(".y13x7").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".achABT").show();
+  });
+  });
+    $("#l13f").click(function(){
+    $("ul.mlist li").hide().filter(".y13x11").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".achFLSvy").show();
+  });
+  });
+    $("#l14a").click(function(){
+    $("ul.mlist li").hide().filter(".y14x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".conSvy").show();
+  });
+  });
+    $("#l14b").click(function(){
+    $("ul.mlist li").hide().filter(".y14x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".conEO").show();
+  });
+  });
+    $("#l14c").click(function(){
+    $("ul.mlist li").hide().filter(".y14x6").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".conDM").show();
+  });
+  });
+    $("#l14d").click(function(){
+    $("ul.mlist li").hide().filter(".y14x7").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".conABT").show();
+  });
+  });
+     $("#l15a").click(function(){
+    $("ul.mlist li").hide().filter(".y15x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".sdirSvy").show();
+  });
+  });
+    $("#l15b").click(function(){
+    $("ul.mlist li").hide().filter(".y15x2").show();
+    $("#dm").click(function(){
+      $("ul.plist li").hide().filter(".sdirDM").show();
+  });
+  });
+    $("#l15c").click(function(){
+    $("ul.mlist li").hide().filter(".y15x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".sdirEO").show();
+  });
+  });
+    $("#l15d").click(function(){
+    $("ul.mlist li").hide().filter(".y15x5").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".sdirABT").show();
+      $("#tas").click(function(){
+      $("ul.plist li").hide().filter(".sdirTas").show();
+  });
+  });
+  });
+     $("#l16a").click(function(){
+    $("ul.mlist li").hide().filter(".y16x1").show();
+    $("#srvy").click(function(){
+      $("ul.plist li").hide().filter(".secSvy").show();
+      $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".secFLSvy").show();
+  });
+  });
+  });
+    $("#l16b").click(function(){
+    $("ul.mlist li").hide().filter(".y16x4").show();
+    $("#eo").click(function(){
+      $("ul.plist li").hide().filter(".secEO").show();
+  });
+  });
+    $("#l16c").click(function(){
+    $("ul.mlist li").hide().filter(".y16x5").show();
+    $("#tas").click(function(){
+      $("ul.plist li").hide().filter(".secTas").show();
+  });
+  });
+    $("#l16d").click(function(){
+    $("ul.mlist li").hide().filter(".y16x7").show();
+    $("#abt").click(function(){
+      $("ul.plist li").hide().filter(".secABT").show();
+  });
+  });
+     $("#l16e").click(function(){
+    $("ul.mlist li").hide().filter(".y16x9").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".secFLSvy2").show();
+  });
+  });
+    $("#l16f").click(function(){
+    $("ul.mlist li").hide().filter(".y16x10").show();
+    $("#flss").click(function(){
+      $("ul.plist li").hide().filter(".secFLSvy3").show();
+  });
+  });
+    $("#l16g").click(function(){
+    $("ul.mlist li").hide().filter(".y16x12").show();
+    $("#dms").click(function(){
+      $("ul.plist li").hide().filter(".secDMS").show();
+  });
+  });
+
+  });
+
+
+
+  </script> 
+  <style> 
+    ul {
+       list-style: none;      /*removes the default bullet*/
+       margin-left: 3%;       /*gives the bullet a small left margin*/
+       padding-left: 1.2em;   /*sets the list text to the right*/
+       text-indent: -1.2em;   /*indents the list text*/
+       height: 310px;
+       width: 370px;
+       overflow: scroll;
+       float: left;
+}
+   li:before {                /*puts the Unicode before the text*/
+            /*designate the Unicode character's number*/
+      font-size: large;       /*control the bullet size*/
+      color: #d9534f;         /*control the symbol color*/
+      margin-right: .5em;     /*give a small margin to the Unicode*/
+}
+   li {
+      padding: .2em;          /*space between the Unicode and the text*/
+}
+ul li:hover {
+  background: lightblue;
+  margin-left: 3%; 
+  padding-left: 1.2em;
+}
+ul:hover li:first-child:not(:hover) {
+  background: transparent;
+}
+/*ul li:nth-of-type() {
+  background: lightblue;
+}*/
+</style> 
+</head>
+<body>
+  <div id="graph1">
+  <div>
+    <h1>Method Mapping List</h1>
+  </div>
+<ul id="xylist">
+  <li id="l1a">Sentiments with MQR</li>
+  <li id="l1b">Sentiments with Project History & MQR</li>
+  <li id="l1c">Sentiments with Psycho Physio & MQR</li>
+  <li id="l2a">Affect with Ratings</li>
+  <li id="l2b">Affect with MQR</li>
+  <li id="l2c">Affect with Project History & MQR</li>
+  <li id="l2d">Affect with MQR & Ratings</li>
+  <li id="l2e">Affect with Psycho Physio & MQR</li>
+  <li id="l3a">Mood with Ratings</li>
+  <li id="l3b">Mood with MQR</li>
+  <li id="l3c">Mood with Psycho-physiological & Ratings</li>
+  <li id="l3d">Mood with Computer Interaction & Ratings</li>
+  <li id="l4a">Other Emotions with Ratings</li>
+  <li id="l4b">Other Emotions with MQR</li>
+  <li id="l4c">Other Emotions with Images</li>
+  <li id="l4d">Other Emotions with Psycho Physio</li>
+  <li id="l5a">Detection, Identification & Categorization with Ratings</li>
+  <li id="l5b">Detection, Identification & Categorization with Psycho-physiological & Ratings</li>
+  <li id="l5c">Detection, Identification & Categorization with Source Code</li>
+  <li id="l5d">Detection, Identification & Categorization with Image</li>
+  <li id="l5e">Detection, Identification & Categorization with Project History</li>
+  <li id="l5f">Detection, Identification & Categorization with Psycho Physio</li>
+  <li id="l5g">Detection, Identification & Categorization with Computer Interaction & Ratings</li>
+  <li id="l5h">Detection, Identification & Categorization with Project History & Ratings</li>
+  <li id="l5i">Detection, Identification & Categorization with Source Code & Ratings</li>
+  <li id="l5j">Detection, Identification & Categorization with Computer Interaction</li>
+  <li id="l6a">Perception Interaction with Ratings</li>
+  <li id="l6b">Perception Interaction with Project History</li>
+  <li id="l6c">Perception Interaction with Project History & Ratings</li>
+  <li id="l7a">Similarity, Choice & Preference with Ratings</li>
+  <li id="l7b">Similarity, Choice & Preference with Project History</li>
+  <li id="l8a">Universalism with Ratings</li>
+  <li id="l8b">Universalism with Source Code</li>
+  <li id="l9a">Stimulation with Ratings</li>
+  <li id="l9b">Stimulation with MQR</li>
+  <li id="l9c">Stimulation with Source Code</li>
+  <li id="l9d">Stimulation with Image</li>
+  <li id="l9e">Stimulation with Project History</li>
+  <li id="l9f">Stimulation with Psycho Physio</li>
+  <li id="l10a">Power with Ratings</li>
+  <li id="l10b">Power with Source Code</li>
+  <li id="l10c">Power with Project History</li>
+  <li id="l11a">Tradition with Ratings</li>
+  <li id="l11b">Tradition with Source Code</li>
+  <li id="l12a">Benevolence with Ratings</li>
+  <li id="l12b">Benevolence with MQR</li>
+  <li id="l12c">Benevolence with Source Code</li>
+  <li id="l13a">Achievement with Ratings</li>
+  <li id="l13b">Achievement with MQR</li>
+  <li id="l13c">Achievement with Source Code</li>
+  <li id="l13d">Achievement with Project History</li>
+  <li id="l13e">Achievement with Psycho Physio</li>
+  <li id="l13f">Achievement with Source Code & Ratings</li>
+  <li id="l14a">Conformity with Ratings</li>
+  <li id="l14b">Conformity with Source Code</li>
+  <li id="l14c">Conformity with Project History</li>
+  <li id="l14d">Conformity with Psycho Physio</li>
+  <li id="l15a">Self-direction with Ratings</li>
+  <li id="l15b">Self-direction with MQR</li>
+  <li id="l15c">Self-direction with Source Code</li>
+  <li id="l15d">Self-direction with Image</li>
+  <li id="l16a">Security with Ratings</li>
+  <li id="l16b">Security with Source Code</li>
+  <li id="l16c">Security with Image</li>
+  <li id="l16d">Security with Psycho Physio</li>
+  <li id="l16e">Security with Computer Interaction & Ratings</li>
+  <li id="l16f">Security with Project History & Ratings</li>
+  <li id="l16g">Security with MQR & Ratings</li>
+</ul>
+<ul class="mlist">
+  <li id="srvy" class="y2x1 y3x1 y4x1 y5x1 y6x1 y7x1 y8x1 y9x1 y10x1 y11x1 y12x1 y13x1 y14x1 y15x1 y16x1">Survey</li>
+  <li id="dm" class="y1x2 y3x2 y4x2 y9x2 y12x2 y13x2 y15x2 y9x6 y10x6 y13x6 y14x6">Data Mining</li>
+  <li id="flss" class="y16x1 y3x3 y5x3 y7x6 y3x9 y5x9 y16x9 y5x10 y6x10 y16x10  y5x11 y13x11 y2x12 y2x13">Field/lab Study & Survey</li>
+  <li id="ce" class="y1x8 y1x13 y2x2 y3x2 y4x2 y9x2 y5x4 y5x11">Control Experiment</li>
+  <li id="abt" class="y5x4 y4x5 y5x5 y9x5 y15x5 y5x6 y5x7 y4x7 y6x6 y9x7 y13x7 y14x7 y15x7 y5x14">A/B Testing</li>
+  <li id="eo" class="y1x2 y2x1 y4x2 y9x2 y5x4 y8x4 y9x4 y10x4 y11x4 y12x4 y13x4 y14x4 y15x4 y16x4">Expert Opinion</li>
+  <li id="dms" class="y1x8 y2x8 y3x2 y16x12">Data Mining & Survey</li>
+  <li id="tas" class="y2x1 y4x5 y15x5 y16x5">Think-aloud & Survey</li>
+</ul>
+<ul class="plist">
+  <li class="senDM"><a href="http://ieeexplore.ieee.org/document/7962396">Sentiment Analysis of Travis CI Builds</a></li>
+  <li class="senDM"><a href="https://ieeexplore.ieee.org/document/7516145">Towards understanding and exploiting developers' emotional variations in software engineering</a></li>
+  <li class="senDM"><a href="https://ieeexplore.ieee.org/abstract/document/7832940/">Analyzing developer sentiment in commit logs</a></li>
+  <li class="senDM"><a href="https://dl.acm.org/doi/10.1145/2491411.2494578">Towards emotional awareness in software development teams</a></li>
+  <li class="senDM"><a href="https://ieeexplore.ieee.org/document/7180110">Mining Successful Answers in Stack Overflow</a></li>
+  <li class="senDM"><a href="https://dl.acm.org/doi/10.1145/2897000.2897006">Understanding question quality through affective aspect in Q&A site</a></li>
+  <li class="senDM"><a href="https://ieeexplore.ieee.org/document/6686063">The Role of Emotions in Contributors Activity: A Case Study on the GENTOO Community</a></li>
+  <li class="senDM"><a href="https://ieeexplore.ieee.org/document/6650529">Visualizing emotions in software development projects</a></li>
+  <li class="senDM"><a href="http://ieeexplore.ieee.org/abstract/document/7202988/">The Development of a Dashboard Tool for Visualising Online Teamwork Discussions</a></li>
+  <li class="senDM"><a href="https://dl.acm.org/doi/10.1145/2597073.2597118">Sentiment analysis of commit comments in GitHub: an empirical study</a></li>
+  <li class="senDM"><a href="https://dl.acm.org/doi/10.1145/2597073.2597117">Security and emotion: sentiment analysis of security discussions on GitHub</a></li>
+  <li class="senDM"><a href="https://dl.acm.org/doi/10.5555/2735522.2735528">Monitoring sentiment in open source mailing lists: exploratory study on the apache ecosystem</a></li>
+  <li class="senDM"><a href="https://ieeexplore.ieee.org/document/8945613">Understanding the Effect of Developer Sentiment on Fix-Inducing Changes: An Exploratory Study on GitHub Pull Requests</a></li>
+  <li class="senDM"><a href="https://ieeexplore.ieee.org/document/9054801">Is Developer Sentiment Related to Software Bugs: An Exploratory Study on GitHub Commits</a></li>
+  <li class="senDM"><a href="http://ieeexplore.ieee.org/document/8305996/">How Do Code Refactoring Activities Impact Software Developers' Sentiments? - An Empirical Investigation into GitHub Commits</a></li>
+  <li class="senCE"><a href="https://ieeexplore.ieee.org/document/7180089">Are Bullies More Productive? Empirical Study of Affectiveness vs. Issue Fixing Time</a></li>
+  <li class="senCE"><a href="https://ieeexplore.ieee.org/document/8453067">Sentiment analysis for software engineering: how far can we go?</a></li>
+  <li class="senCE"><a href="https://dl.acm.org/doi/10.1145/3194932.3194938">Sentiment and politeness analysis tools on developer discussions are unreliable, but so are people</a></li>
+  <li class="senCE"><a href="https://dl.acm.org/doi/10.1145/3194932.3194935">Entity-level sentiment analysis of issue comments</a></li>
+  <li class="senCE"><a href="https://dl.acm.org/doi/10.1145/3194932.3194936">On measuring affects of github issues' commenters</a></li>
+  <li class="senCE2"><a href="https://dl.acm.org/doi/10.1145/3196398.3196403">A Benchmark Study on Sentiment Analysis for Software Engineering Research</a></li>
+  <li class="senEO"><a href="https://ieeexplore.ieee.org/document/8181475">Sentiment Identification for Collaborative, Geographically Dispersed, Cross-functional Software Development Teams</a></li>
+  <li class="senDMS"><a href="https://ieeexplore.ieee.org/document/8595354">MEME: toward a method for emotions extraction from github</a></li>
+  <li class="affSvy"><a href="https://www.gwern.net/docs/music-distraction/2005-lesiuk.pdf">The effect of music listening on work performance</a></li>
+  <li class="affSvy"><a href="https://www.sciencedirect.com/science/article/pii/S016412121830089X">Positive affect through interactions in meetings: The role of proactive and supportive statements</a></li>
+  <li class="affSvy"><a href="https://link.springer.com/chapter/10.1007/11499053_31">The Positive Affect of the XP Methodology</a></li>
+  <li class="affSvy"><a href="https://dl.acm.org/doi/10.1145/2771440">Media, Mood, and Meetings: Related to Project Success?</a></li>
+  <li class="affSvy"><a href="http://ieeexplore.ieee.org/document/6577875">Emotions in the software development process</a></li>
+  <li class="affSvy"><a href="https://www.sciencedirect.com/science/article/pii/S0268401219300556#:~:text=Our%20empirical%20results%20show%20that,effect%20of%20stress%20on%20performance.">Emotional intelligence: The key to mitigating stress and fostering trust among software developers working on information system projects</a></li>
+  <li class="affSvy"><a href="https://peerj.com/articles/cs-18/">How do you feel, developer? An explanatory theory of the impact of affects on programming performance</a></li>
+  <li class="affSvy"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/isj.12282#:~:text=The%20random%20coefficient%20modelling%20results,with%20others%20in%20their%20organization.">How agile software development methods reduce work exhaustion: Insights on role perceptions and organizational skills</a></li>
+  <li class="affSvy"><a href="https://www.sciencedirect.com/science/article/pii/S037872061400144X">Antecedents and consequences of collective empathy in software development project teams</a></li>
+  <li class="affTas"><a href="http://ieeexplore.ieee.org/document/7961891/">Using Playful Drawing to Support Affective Expressions and Sharing in Distributed Teams</a></li>
+  <li class="affEO"><a href="https://dl.acm.org/doi/10.1145/2897000.2897003">Outcomes of Emotional Content from Agile Team Forum Posts</a></li>
+  <li class="affCE"><a href="https://dl.acm.org/doi/10.1145/3019612.3019788">Analyzing emotion words to predict severity of software bugs: a case study of open source projects</a></li>
+  <li class="affDMS"><a href="https://ieeexplore.ieee.org/document/6624038">Fixing the ‘Out of sight out of mind’ problem one year of mood-based microblogging in a distributed software team</a></li>
+  <li class="affFLSvy"><a href="https://www.mdpi.com/2076-3417/8/3/323">Applicability of Emotion Recognition and Induction Methods to Study the Behavior of Programmers</a></li>
+  <li class="affFLSvy2"><a href="https://dl.acm.org/doi/10.1145/3377811.3380414">Predicting Developers’ Negative Feelings about Code Review</a></li>
+  <li class="mdSvy"><a href="https://www.researchgate.net/publication/220349120_Using_the_Affect_Grid_to_Measure_Emotions_in_Software_Requirements_Engineering">Using the Affect Grid to Measure Emotions Lumbreras in Software Requirements Engineering</a></li>
+  <li class="mdSvy"><a href="https://ieeexplore.ieee.org/document/7733457">Towards the participant observation of emotions in software development teams</a></li>
+  <li class="mdSvy"><a href="https://dl.acm.org/doi/10.1145/1362550.1362606">Mood independent programming</a></li>
+  <li class="mdSvy"><a href="https://www.mdpi.com/2076-3417/8/3/323">Applicability of Emotion Recognition and Induction Methods to Study the Behavior of Programmers</a></li>
+  <li class="mdSvy"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.1673">Do feelings matter? On the correlation of affects and the self‐assessed productivity in software engineering</a></li>
+  <li class="mdSvy"><a href="https://link.springer.com/article/10.1007/s10664-006-5968-5">The Impact of an Agile Methodology on the Well Being of Development Teams</a></li>
+  <li class="mdSvy"><a href="https://dl.acm.org/doi/abs/10.1145/3194932.3194939">Effects of automated competency evaluation on software engineers' emotions and motivation: a case study</a></li>
+  <li class="mdSvy"><a href="https://dl.acm.org/doi/abs/10.1145/3194932.3194939">Effects of Automated Competency Evaluation on Software Engineers’ Emotions and Motivation: A Case Study</a></li>
+  <li class="mdCE"><a href="https://dl.acm.org/doi/10.1145/3167132.3167296">DEVA: sensing emotions in the valence arousal space in software engineering text</a></li>
+  <li class="mdDMS"><a href="https://dl.acm.org/doi/10.1109/MSR.2017.47">Bootstrapping a lexicon for emotional arousal in software engineering</a></li>
+  <li class="mdDM"><a href="https://dl.acm.org/doi/10.1145/2901739.2901752">Mining valence, arousal, and dominance: possibilities for detecting burnout and productivity?</a></li>
+  <li class="mdDM"><a href="https://dl.acm.org/doi/10.1145/3194932.3194936">On measuring affects of github issues' commenters</a></li>
+  <li class="mdFLSvy"><a href="https://ieeexplore.ieee.org/document/7194617">Stuck and frustrated or in flow and happy: Sensing developers' emotions and progress</a></li>
+  <li class="mdFLSvy"><a href="http://ieeexplore.ieee.org/document/7476774/">Leveraging Biometric Data to Boost Software Developer Productivity</a></li>
+  <li class="mdFLSvy"><a href="https://link.springer.com/chapter/10.1007/978-3-319-58625-0_4">Neurophysiological Impact of Software design processes on software developers</a></li>
+  <li class="mdFLSvy"><a href="https://ieeexplore.ieee.org/document/8273589#:~:text=Abstract%3A%20Emotion%20recognition%20from%20biometrics,used%20in%20real%2Dlife%20situations.">Emotion Detection Using Noninvasive Low Cost Sensors</a></li>
+  <li class="mdFLSvy"><a href="https://dl.acm.org/doi/10.1145/3377811.3380374">Recognizing Developers’ Emotions while Programming</a></li>
+  <li class="mdFLSvy2"><a href="https://link.springer.com/article/10.1007/s11704-013-2331-z">Towards estimating computer users’ mood from interaction behaviour with keyboard and mouse</a></li>
+  <li class="oemSvy"><a href="https://www.sciencedirect.com/science/article/pii/S0164121218300323">What happens when software developers are (un)happy</a></li>
+  <li class="oemSvy"><a href="https://www.researchgate.net/publication/261258052_Happy_software_developers_solve_problems_better_Psychological_measurements_in_empirical_software_engineering">Happy software developers solve problems better: psychological measurements in empirical software engineering</a></li>
+  <li class="oemSvy"><a href="https://www.researchgate.net/publication/312595130_Consequences_of_Unhappiness_While_Developing_Software">Consequences of Unhappiness While Developing Software</a></li>
+  <li class="oemDM"><a href="https://dl.acm.org/doi/10.1145/3194932.3194934">The evolution of emotional displays in open source software development teams: an individual growth curve analysis</a></li>
+  <li class="oemDM"><a href="https://publons.com/publon/205165/">Sentiment Analysis in monitoring software development processes: An exploratory case study on GitHub's project issues</a></li>
+  <li class="oemDM"><a href="http://ieeexplore.ieee.org/abstract/document/7202988/">The Development of a Dashboard Tool for Visualising Online Teamwork Discussions</a></li>
+  <li class="oemDM"><a href="https://dl.acm.org/doi/abs/10.1109/ICSE-SEIS52602.2021.00018">Understanding Emotions of Developer Community Towards Software Documentation</a></li>
+  <li class="oemDM"><a href="https://dl.acm.org/doi/10.1145/3098322.3098325">Facing up the primary emotions in Mobile Software Ecosystems from Developer Experience</a></li>
+  <li class="oemEO"><a href="https://dl.acm.org/doi/10.1145/3019612.3019786"></a>On the randomness and seasonality of affective metrics for software development</li>
+  <li class="oemEO"><a href="https://dl.acm.org/doi/10.1145/3196398.3196453">A gold standard for emotion annotation in stack overflow</a></li>
+  <li class="oemEO"><a href="https://arxiv.org/pdf/2103.07090">Predicting Community Smells’ Occurrence on Individual Developers by Sentiments</a></li>
+  <li class="oemTas"><a href="https://www.sciencedirect.com/science/article/pii/S016412122100279X">Emotimonitor: A Trello Power-Up to Capture Emotions of Agile Teams</a></li>
+  <li class="oemABT"><a href="https://ieeexplore.ieee.org/document/5656346">Real-Time EEG-Based Human Emotion Recognition and Visualization</a></li>
+  <li class="oemABT2"><a href="https://eprints.mdx.ac.uk/22085/">Understanding collaboration in Global Software Engineering (GSE) teams with the use of sensors: Introducing a multi-sensor setting for observing social and human aspects in project management</a></li>
+  <li class="oemCE"><a href="https://dl.acm.org/doi/10.1109/ICSE-NIER.2017.18">Anger and Its Direction in Collaborative Software Development</a></li>
+  <li class="oemCE"><a href="https://dl.acm.org/doi/10.1145/2597073.2597086">Do developers feel emotions? an exploratory analysis of emotions in software artifacts</a></li>
+  <li class="oemCE"><a href="https://link.springer.com/article/10.1007/s10664-017-9526-0">An exploratory qualitative and quantitative analysis of emotions in issue report comments of open source systems</a></li>
+  <li class="oemCE"><a href="https://arxiv.org/pdf/1709.02984">Sentiment Polarity Detection for Software Development</a></li>
+  <li class="oemCE"><a href="https://link.springer.com/article/10.1007/s10664-016-9493-x">On negative results when using sentiment analysis tools for software engineering research</a></li>
+  <li class="oemCE"><a href="https://www.sciencedirect.com/science/article/pii/S0164121218301675">SentiStrength-SE: Exploiting domain specificity for improved sentiment analysis in software engineering text</a></li>
+  <li class="oemCE"><a href="https://dl.acm.org/doi/10.5555/2820518.2820555">Are Bullies More Productive? Empirical Study of Affectiveness vs. Issue Fixing Time</a></li>
+  <li class="oemCE"><a href="https://dl.acm.org/doi/10.1145/3194932.3194936">On measuring affects of github issues' commenters</a></li>
+  <li class="dicDM"><a href="https://dl.acm.org/doi/10.1145/3239372.3239387">Improving the Developer Experience with a Low-Code Process Modelling Language</a></li>
+  <li class="dicDM"><a href="https://www.sciencedirect.com/science/article/pii/S0263786314001215">Explaining over-requirement in software development projects: An experimental investigation of behavioral effects</a></li>
+  <li class="dicDM"><a href="http://ieeexplore.ieee.org/abstract/document/6606615/">An Empirical Study on the Developers’ Perception of Software Coupling</a></li>
+  <li class="dicDM"><a href="https://ieeexplore.ieee.org/document/7961509"></a>Smells are sensitive to developers! On the efficiency of (un)guided customized detection</li>
+  <li class="dicDM"><a href="https://ieeexplore.ieee.org/document/6976076">Do they Really Smell Bad? A Study on Developers’ Perception of Bad Code Smells</a></li>
+  <li class="dicDM"><a href="https://www.tandfonline.com/doi/full/10.1080/10580530.2021.1879323">For Love or Money? Examining Reasons behind OSS Developers’ Contributions</a></li>
+  <li class="dicDM"><a href="https://dl.acm.org/doi/10.1145/2635868.2635892">Software Developers’ Perceptions of Productivity</a></li>
+  <li class="dicDM"><a href="https://ieeexplore.ieee.org/document/8170090">Characterizing Software Developers by Perceptions of Productivity</a></li>
+  <li class="dicDM"><a href="https://ieeexplore.ieee.org/document/8643844">What Predicts Software Developers’ Productivity?</a></li>
+  <li class="dicDM"><a href="https://ieeexplore.ieee.org/document/8851296">Towards a Theory of Software Developer Job Satisfaction and Perceived Productivity</a></li>
+  <li class="dicDM"><a href="https://link.springer.com/article/10.1007/s10664-020-09820-z">Code and Commit Metrics of Developer Productivity: A Study on Team Leaders Perceptions</a></li>
+  <li class="dicDM"><a href="http://ieeexplore.ieee.org/document/7829407">The Work Life of Developers: Activities, Switches and Perceived Productivity</a></li>
+  <li class="dicDM"><a href="http://ieeexplore.ieee.org/document/7476774/">Leveraging Biometric Data to Boost Software Developer Productivity</a></li>
+  <li class="dicDM"><a href="https://ieeexplore.ieee.org/document/8818751">Software Developers Learning Machine Learning: Motivations, Hurdles, and Desires</a></li>
+  <li class="dicFLSvy"><a href="http://ieeexplore.ieee.org/document/7961890/">Characterizing and Predicting Mental Fatigue during Programming Tasks</a></li>
+  <li class="dicFLSvy"><a href="https://dl.acm.org/doi/10.1145/3134714">Design Recommendations for Self-Monitoring in the Workplace: Studies in Software Development</a></li>
+  <li class="dicFLSvy"><a href="https://dl.acm.org/doi/abs/10.1145/3379597.3387457">Developer-Driven Code Smell Prioritization</a></li>
+  <li class="dicFLSvy"><a href="https://ieeexplore.ieee.org/document/7591752">Assessing the contribution of the individual alpha frequency (IAF) in an EEG-based study of program comprehension</a></li>
+  <li class="dicFLSvy"><a href="https://dl.acm.org/doi/10.1145/2884781.2884803">Using (bio)metrics to predict code quality online</a></li>
+  <li class="dicFLSvy"><a href="https://ieeexplore.ieee.org/document/8049140">Task Interruptions in Requirements Engineering: Reality Versus Perceptions!</a></li>
+  <li class="dicFLSvy"><a href="https://link.springer.com/article/10.1007/s10664-020-09805-y">On (Mis)perceptions of testing effectiveness: an empirical study</a></li>
+  <li class="dicFLSvy"><a href="https://www.semanticscholar.org/paper/Do-Design-Metrics-Capture-Developers-Perception-of-Alomar-Mkaouer/fc6c611da55e6b00a6730d55400a4d330bab31f8">Do design metrics capture developers perception of quality? an empirical study on self-affirmed refactoring activities</a></li>
+  <li class="dicFLSvy"><a href="https://www.semanticscholar.org/paper/Socio-technical-developer-networks%3A-should-we-trust-Meneely-Williams/50f793cfd47bb6ce0e4eabf9f741f55c7122b5fb">Socio-Technical Developer Networks: Should We Trust Our Measurements?</a></li>
+  <li class="dicFLSvy"><a href="https://ieeexplore.ieee.org/document/7194566">Interactive Code Review for Systematic Changes</a></li>
+  <li class="dicABT"><a href="https://ieeexplore.ieee.org/document/5970156">Subvocalization – Toward Hearing the Inner Thoughts of Developers</a></li>
+  <li class="dicCE"><a href="https://dl.acm.org/doi/10.1145/3387904.3389258">A Human Study of Comprehension and Code Summarization</a></li>
+  <li class="dicEO"><a href="https://dl.acm.org/doi/10.1145/3196321.3196347">The Effect of Poor Source Code Lexicon and Readability on Developers’ Cognitive Load</a></li>
+  <li class="dicABT2"><a href="https://ieeexplore.ieee.org/document/8425769">A look into programmers’ heads</a></li>
+  <li class="dicABT2"><a href="https://dl.acm.org/doi/10.1145/3106237.3106268">Measuring neural efficiency of program comprehension</a></li>
+  <li class="dicABT2"><a href="https://dl.acm.org/doi/10.1145/2568225.2568252">Understanding Understanding Source Code with Functional Magnetic Resonance Imaging</a></li>
+  <li class="dicABT2"><a href="https://dl.acm.org/doi/10.1145/3377811.3380348">Neurological Divide: An fMRI Study of Prose and Code Writing</a></li>
+  <li class="dicABT2"><a href="https://dl.acm.org/doi/10.1145/3434643">Toward an Objective Measure of Developers’ Cognitive Activities</a></li>
+  <li class="dicABT3"><a href="http://ieeexplore.ieee.org/document/7194623/">Assert Use in GitHub Projects</a></li>
+  <li class="dicABT4"><a href="https://ieeexplore.ieee.org/document/8022717">Evaluating the work of experienced and inexperienced developers considering work difficulty in sotware development</a></li>
+  <li class="dicABT4"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.1839">Work fragmentation in developer interaction data</a></li>
+  <li class="dicABT4"><a href="https://dl.acm.org/doi/10.1145/3025453.3025662">Reducing interruptions at work: A large-scale field study of flowlight</a></li>
+  <li class="dicFLSvy2"><a href="https://dl.acm.org/doi/10.1145/2568225.2568266">Using psycho-physiological measures to assess task difficulty in software development</a></li>
+  <li class="dicFLSvy2"><a href="https://link.springer.com/article/10.1007/s10586-017-0746-2#:~:text=Using%20data%20from%20both%20sensors,and%2096.4%25%20recall%2C%20respectively.">Mining biometric data to predict programmer expertise and task difficulty</a></li>
+  <li class="dicFLSvy2"><a href="https://dl.acm.org/doi/10.1145/1864349.1864395#:~:text=We%20found%20that%20across%20all,over%2080%25%20when%20used%20together.">Psycho-physiological measures for assessing cognitive load</a></li>
+  <li class="dicFLSvy3"><a href="http://ieeexplore.ieee.org/document/7203106/">Measuring software developers’ perceived difficulty with biometric sensors</a></li>
+  <li class="dicFLSvy3"><a href="http://ieeexplore.ieee.org/document/7476774/">Leveraging Biometric Data to Boost Software Developer Productivity</a></li>
+  <li class="dicFLSvy3"><a href="https://dl.acm.org/doi/10.1145/2702123.2702593">Interruptibility of Software Developers and its Prediction Using Psycho-Physiological Sensors</a></li>
+  <li class="dicFLSvy4"><a href="https://link.springer.com/chapter/10.1007/978-3-319-58625-0_4">Neurophysiological Impact of Software design processes on software developers</a></li>
+  <li class="dicFLSvy4"><a href="https://dl.acm.org/doi/10.1145/3434643">Toward an Objective Measure of Developers’ Cognitive Activities</a></li>
+  <li class="dicCE2"><a href="https://ieeexplore.ieee.org/document/7835258">A Developer Centered Bug Prediction Model</a></li>
+  <li class="dicABT5"><a href="https://ieeexplore.ieee.org/document/7591752">Assessing the contribution of the individual alpha frequency (IAF) in an EEG-based study of program comprehension</a></li>
+  <li class="dicABT5"><a href="https://www.sciencedirect.com/science/article/pii/S1071581918300934">Towards an affordable brain computer interface for the assessment of programmers’ mental workload</a></li>
+  <li class="piSvy"><a href="https://www.sciencedirect.com/science/article/pii/S016412121500206X">Links between the personalities, styles and performance in computer programming</a></li>
+  <li class="piSvy"><a href="https://www.sciencedirect.com/science/article/pii/S037872061400144X">Antecedents and consequences of collective empathy in software development project teams</a></li>
+  <li class="piSvy"><a href="https://link.springer.com/article/10.1007/s00766-017-0266-x">Direct and mediating influences of user-developer perception gaps in requirements understanding on user participation</a></li>
+  <li class="piFLSvy"><a href="https://www.sciencedirect.com/science/article/pii/S0167642318302764">Understanding software developers' cognition in agile requirements engineering</a></li>
+  <li class="piABT"><a href="https://dl.acm.org/doi/10.1145/1414004.1414008">Socio-technical congruence: a framework for assessing the impact of technical and work dependencies on software development productivity</a></li>
+  <li class="scpSvy"><a href="https://ieeexplore.ieee.org/document/8466000">How Practitioners Perceive Automated Bug Report Management Techniques</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/10.1145/3239372.3239387">Improving the Developer Experience with a Low-Code Process Modelling Language</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/10.1145/2786805.2786809">How Practitioners Perceive the Relevance of Software Engineering Research</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/10.1145/2961111.2962597">How Practitioners Perceive the Relevance of ESEM Research</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/10.1145/2931037.2931051">Practitioners’ Expectations on Automated Fault Localization</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/10.1145/1453101.1453146">What makes a good bug report?</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/abs/10.5555/3370272.3370280">Behind the scenes: Developers' perception of multi-language practices</a></li>
+  <li class="scpSvy"><a href="https://link.springer.com/article/10.1007/s10664-014-9350-8#:~:text=Linguistic%20Antipatterns%20(LAs)%20in%20software,thus%20possibly%20impairing%20program%20understanding.">Linguistic antipatterns: what they are and how developers perceive them</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/10.1007/s10664-018-9666-x">An investigation of misunderstanding code patterns in C open-source software projects</a></li>
+  <li class="scpSvy"><a href="https://ro.uow.edu.au/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1709&context=buspapers">The perceived impact of the agile development and project management method scrum on information systems and software development productivity</a></li>
+  <li class="scpSvy"><a href="http://ieeexplore.ieee.org/document/8595355">Making meeting success measurable by participants' feedback</a></li>
+  <li class="scpSvy"><a href="https://dl.acm.org/doi/abs/10.1109/ICSE.2017.23">Classifying Developers into Core and Peripheral: An Empirical Study on Count and Network Metrics</a></li>
+  <li class="scpFLSvy"><a href="https://www.semanticscholar.org/paper/How-do-open-source-app-developers-perceive-API-to-Chinnakali-Chimalakonda/2709bd269b16114924bf453ea1bd9e5f58a083f9">How do open source app developers perceive API changesrelated to Android battery optimization? An empirical study</a></li>
+  
+  <li class="univSvy stimSvy pwrSvy trdnSvy bnvSvy achSvy conSvy sdirSvy secSvy"><a href="https://www.sciencedirect.com/science/article/pii/S0167923603001015">Cross-cultural differences and information systems developer values</a></li>
+  <li class="univSvy stimSvy pwrSvy trdnSvy bnvSvy achSvy conSvy sdirSvy secSvy"><a href="https://dl.acm.org/doi/10.1145/3239235.3267427">Measuring Human Values in Software Engineering</a></li>
+  <li class="univSvy stimSvy pwrSvy trdnSvy bnvSvy achSvy conSvy sdirSvy secSvy"><a href="https://www.tandfonline.com/doi/full/10.1080/10580530.2021.1879323">For Love or Money? Examining Reasons behind OSS Developers’ Contributions</a></li>
+  <li class="univSvy stimSvy pwrSvy trdnSvy bnvSvy achSvy conSvy sdirSvy secSvy"><a href="https://link.springer.com/chapter/10.1007/978-3-319-06862-6_15">Examining the Structure of Lean and Agile Values among Software Developers</a></li>
+  <li class="univEO stimEO2 pwrEO trdnEO bnvEO achEO conEO sdirEO secEO"><a href="https://dl.acm.org/doi/abs/10.1145/3387940.3392242">Engineering Human Values in Software through Value Programming</a></li>
+
+  <li class="univEO"><a href="https://dl.acm.org/doi/10.1145/3287560.3287588">Fairness-Aware Programming</a></li>
+  <li class="stimSvy"><a href="https://www.sciencedirect.com/science/article/pii/S0164121299000941">Software developer perceptions about software project failure: a case study</a></li>
+  <li class="stimSvy"><a href="https://ieeexplore.ieee.org/document/8851296">Towards a Theory of Software Developer Job Satisfaction and Perceived Productivity</a></li>
+  <li class="stimSvy"><a href="https://core.ac.uk/download/pdf/301367499.pdf">Understanding Informal Control Modes on Software Platforms – The Mediating Role of Third-Party Developers’ Intrinsic Motivation</a></li>
+  <li class="stimSvy"><a href="https://www.sciencedirect.com/science/article/pii/S016412121400020X">Factors that motivate software engineering teams: A four country empirical study</a></li>
+  <li class="stimSvy"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spip.265">Software Developer Motivation in a High Maturity Company: a Case Study</a></li>
+  <li class="stimSvy"><a href="https://ieeexplore.ieee.org/document/7883285">Continuous Deployment at Facebook and OANDA</a></li>
+  <li class="stimSvy"><a href="https://dl.acm.org/doi/abs/10.1145/3194932.3194939">Effects of Automated Competency Evaluation on Software Engineers’ Emotions and Motivation: A Case Study</a></li>
+  <li class="stimSvy"><a href="https://dl.acm.org/doi/abs/10.1145/3194932.3194939">Effects of automated competency evaluation on software engineers' emotions and motivation: a case study</a></li>
+  <li class="stimCE"><a href="https://dl.acm.org/doi/10.1145/3194932.3194936">On measuring affects of github issues' commenters</a></li>
+  <li class="stimCE"><a href="https://www.sciencedirect.com/science/article/pii/S0164121218301675">SentiStrength-SE: Exploiting domain specificity for improved sentiment analysis in software engineering text</a></li>
+  <li class="stimCE"><a href="https://link.springer.com/article/10.1007/s10664-017-9526-0">An exploratory qualitative and quantitative analysis of emotions in issue report comments of open source systems</a></li>
+  <li class="stimCE"><a href="https://link.springer.com/article/10.1007/s10664-016-9493-x">On negative results when using sentiment analysis tools for software engineering research</a></li>
+  <li class="stimCE"><a href="https://arxiv.org/abs/1709.02984?context=csxs">Sentiment Polarity Detection for Software Development</a></li>
+  <li class="stimDM"><a href="https://www.sciencedirect.com/science/article/pii/S0164121215000485">Sentiment Analysis in monitoring software development processes: An exploratory case study on GitHub's project issues</a></li>
+  <li class="stimDM"><a href="https://dl.acm.org/doi/abs/10.1109/ICSE-SEIS52602.2021.00018">Understanding Emotions of Developer Community Towards Software Documentation</a></li>
+  <li class="stimDM"><a href="https://www.sciencedirect.com/science/article/pii/S0167923608001814">Determinants of open source software project success: A longitudinal study</a></li>
+  <li class="stimDM"><a href="https://www.worldscientific.com/doi/pdf/10.1142/S0218194016400143">Automatically Modeling Developer Programming Ability and Interest Across Software Communities</a></li>
+  <li class="stimEO"><a href="https://dl.acm.org/doi/10.1145/3196398.3196453">A gold standard for emotion annotation in stack overflow</a></li>
+  <li class="stimEO"><a href="https://dl.acm.org/doi/10.1145/2597073.2597086">Do developers feel emotions? an exploratory analysis of emotions in software artifacts</a></li>
+  <li class="stimEO"><a href="https://link.springer.com/article/10.1007/s10664-016-9493-x">On negative results when using sentiment analysis tools for software engineering research</a></li>
+  <li class="stimABT"><a href="http://ieeexplore.ieee.org/document/8114656/">Understanding collaboration in Global Software Engineering (GSE) teams with the use of sensors: Introducing a multi-sensor setting for observing social and human aspects in project management</a></li>
+  <li class="stimABT2"><a href="https://ieeexplore.ieee.org/document/5656346">Real-Time EEG-Based Human Emotion Recognition and Visualization</a></li>
+  <li class="stimDM2"><a href="https://www.sciencedirect.com/science/article/pii/S0164121215000485">Sentiment Analysis in monitoring software development processes: An exploratory case study on GitHub's project issues</a></li>
+  <li class="pwrSvy"><a href="https://www.sciencedirect.com/science/article/pii/S0164121220300674">The influence of Technical Debt on software developer morale</a></li>
+  <li class="pwrSvy"><a href="https://dl.acm.org/doi/10.1145/2675133.2675215">Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects</a></li>
+  <li class="pwrSvy"><a href="https://dl.acm.org/doi/abs/10.1287/isre.2017.0716">Technical systems development risk factors: The role of empowering leadership in lowering developers’ stress</a></li>
+  <li class="pwrSvy"><a href="https://ieeexplore.ieee.org/document/8170125">Looking for Peace of Mind? Manage Your (Technical) Debt: An Exploratory Field Study</a></li>
+  <li class="pwrDM"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167923612000632">Reputation management in an open source developer social network: An empirical study on determinants of positive evaluations</a></li>
+  <li class="pwrDM"><a href="https://ieeexplore.ieee.org/document/8952390">Developer Reputation Estimator (DRE)</a></li>
+  <li class="pwrDM"><a href="https://dl.acm.org/doi/10.1145/2652524.2652544">Impact of developer reputation on code review outcomes in OSS projects: an empirical investigation</a></li>
+  <li class="trdnSvy"><a href="https://link.springer.com/article/10.1007/s10664-012-9238-4">Investigating the effects of personality traits on pair programming in a higher education setting through a family of experiments</a></li>
+  <li class="trdnSvy"><a href="https://ieeexplore.ieee.org/abstract/document/7809477/">Beliefs, Practices, and Personalities of Software Engineers: A Survey in a Large Software Company</a></li>
+  <li class="trdnSvy"><a href="https://link.springer.com/chapter/10.1007/978-3-319-06862-6_15">Examining the Structure of Lean and Agile Values among Software Developers</a></li>
+  <li class="bnvSvy"><a href="https://www.sciencedirect.com/science/article/pii/S0164121218301250">Bridging the gap between awareness and trust in globally distributed software teams</a></li>
+  <li class="bnvSvy"><a href="https://www.sciencedirect.com/science/article/pii/S037872061400144X">Antecedents and consequences of collective empathy in software development project teams</a></li>
+  <li class="bnvSvy"><a href="https://ieeexplore.ieee.org/document/5164918">Antecedents of coordination effectiveness of software developer dyads from interacting teams: an empirical investigation</a></li>
+  <li class="bnvSvy"><a href="https://www.semanticscholar.org/paper/When-Cultures-Clash%3A-Participation-in-Open-Source-Daniel-Maruping/22dfb97aaf58cac144a3b65e94d945078002c1f5">When Cultures Clash: Participation in Open Source Communities and Its Implications For Organizational Commitment</a></li>
+  <li class="bnvDM"><a href="https://link.springer.com/content/pdf/10.1186/s40411-017-0044-y.pdf">How diverse is your team? Investigating gender and nationality diversity in GitHub teams</a></li>
+  <li class="bnvDM"><a href="https://www.sciencedirect.com/science/article/pii/S0378720614000093">Understanding group maintenance behavior in Free/Libre Open-Source Software projects: The case of Fire and Gaim</a></li>
+  <li class="bnvDM"><a href="http://ieeexplore.ieee.org/abstract/document/7202988/">The Development of a Dashboard Tool for Visualising Online Teamwork Discussions</a></li>
+  <li class="bnvDM"><a href="https://dl.acm.org/doi/10.1145/3194932.3194934">The evolution of emotional displays in open source software development teams: an individual growth curve analysis</a></li>
+  <li class="bnvDM"><a href="https://dl.acm.org/doi/10.1145/3194932.3194936">On measuring affects of github issues' commenters</a></li>
+  <li class="bnvDM"><a href="https://dl.acm.org/doi/abs/10.1109/ICSE-SEIS52602.2021.00018">Understanding Emotions of Developer Community Towards Software Documentation</a></li>
+  <li class="achSvy"><a href="https://dl.acm.org/doi/abs/10.1145/3194932.3194939">Effects of Automated Competency Evaluation on Software Engineers’ Emotions and Motivation: A Case Study</a></li>
+  <li class="achDM"><a href="https://ieeexplore.ieee.org/document/6895411?reload=true">The influence of developer quality on software fault-proneness prediction</a></li>
+  <li class="achDM2"><a href="https://www.sciencedirect.com/science/article/pii/S0378720614000093">Understanding group maintenance behavior in Free/Libre Open-Source Software projects: The case of Fire and Gaim</a></li>
+  <li class="achDM2"><a href="https://dl.acm.org/doi/10.1145/1453101.1453106">Predicting Failures with Developer Networks and Social Network Analysis</a></li>
+  <li class="achABT"><a href="https://dl.acm.org/doi/pdf/10.1145/2829945">Understanding Programming Expertise: An Empirical Study of Phasic Brain Wave Changes</a></li>
+  <li class="achFLSvy"><a href="https://dl.acm.org/doi/10.1145/3236024.3264842#:~:text=Quantifying%20the%20value%20of%20developers,(the%20impact%20on%20development).">Towards Quantifying the Development Value of Code Contributions</a></li>
+  <li class="conSvy"><a href="https://www.sciencedirect.com/science/article/pii/S037872061400144X">Antecedents and consequences of collective empathy in software development project teams</a></li>
+  <li class="conSvy"><a href="https://www.semanticscholar.org/paper/When-Cultures-Clash%3A-Participation-in-Open-Source-Daniel-Maruping/22dfb97aaf58cac144a3b65e94d945078002c1f5">When Cultures Clash: Participation in Open Source Communities and Its Implications For Organizational Commitment</a></li>
+  <li class="conDM"><a href="https://ieeexplore.ieee.org/document/6149241">Who Will Remain? - An Evaluation of Actual Person-Job and Person-Team Fit to Predict Developer Retention in FLOSS Projects</a></li>
+  <li class="conDM"><a href="https://ieeexplore.ieee.org/document/6079864">Recommending People in Developers’ Collaboration Network</a></li>
+  <li class="conABT"><a href="https://www.nature.com/articles/s41598-018-21518-3">Biosignals reflect pairdynamics in collaborative work: EDA and ECG study of pair-programming in a classroom environment</a></li>
+  <li class="sdirSvy"><a href="https://ieeexplore.ieee.org/document/8823032">Enabling Good Work Habits in Software Developers through Reflective Goal-Setting</a></li>
+  <li class="sdirSvy"><a href="https://link.springer.com/article/10.1007/s10664-015-9390-8">Perspectives on refactoring planning and practice: an empirical study</a></li>
+  <li class="sdirDM"><a href="https://www.sciencedirect.com/science/article/abs/pii/S095058491730126X">Exploring the links between software development task type, team attitudes and task completion performance: Insights from the Jazz repository</a></li>
+  <li class="sdirDM"><a href="https://ieeexplore.ieee.org/document/6227209">Developer Prioritization in Bug Repositories</a></li>
+  <li class="sdirDM"><a href="https://ieeexplore.ieee.org/document/8115623">SentiCR: a customized sentiment analysis tool for code review interactions</a></li>
+  <li class="sdirDM"><a href="https://dl.acm.org/doi/10.1145/3194932.3194934">The evolution of emotional displays in open source software development teams: an individual growth curve analysis</a></li>
+  <li class="sdirDM"><a href="https://dl.acm.org/doi/abs/10.1109/ICSE-SEIS52602.2021.00018">Understanding Emotions of Developer Community Towards Software Documentation</a></li>
+  <li class="sdirTas"><a href="https://www.sciencedirect.com/science/article/pii/S016412122100279X#:~:text=Emotimonitor%20will%20better%20enable%20team,as%20visualisations%20and%20statistical%20data.">Emotimonitor: A Trello Power-Up to Capture Emotions of Agile Teams</a></li>
+  <li class="sdirABT"><a href="http://ieeexplore.ieee.org/document/8114656/">Understanding collaboration in Global Software Engineering (GSE) teams with the use of sensors: Introducing a multi-sensor setting for observing social and human aspects in project management</a></li>
+  <li class="secSvy"><a href="https://dl.acm.org/doi/10.1145/1719051.1719053">Performance and Strain Levels of IT Workers Engaged in Rapidly Changing Environments: A Person-Job Fit Perspective</a></li>
+  <li class="secSvy"><a href="https://link.springer.com/article/10.1007/s10664-020-09875-y">Pandemic programming</a></li>
+  <li class="secSvy"><a href="https://link.springer.com/chapter/10.1007/978-3-030-85521-5_2">To Work from Home (WFH) or Not to Work from Home? Lessons Learned by Software Engineers During the COVID-19 Pandemic</a></li>
+  <li class="secSvy"><a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2017.0716">Technical systems development risk factors: The role of empowering leadership in lowering developers’ stress</a></li>
+  <li class="secSvy"><a href="https://dl.acm.org/doi/10.1145/3194932.3194942">Daily questionnaire to assess self-reported well-being during a software development project</a></li>
+  <li class="secFLSvy"><a href="http://ieeexplore.ieee.org/document/7961890/">Characterizing and Predicting Mental Fatigue during Programming Tasks</a></li>
+  <li class="secFLSvy2"><a href="https://link.springer.com/article/10.1007/s10664-006-5968-5">The Impact of an Agile Methodology on the Well Being of Development Teams</a></li>
+  <li class="secFLSvy3"><a href="https://dl.acm.org/doi/10.1145/3377811.3380414">Predicting Developers’ Negative Feelings about Code Review</a></li>
+  <li class="secTas"><a href="https://www.sciencedirect.com/science/article/pii/S016412122100279X#:~:text=Emotimonitor%20will%20better%20enable%20team,as%20visualisations%20and%20statistical%20data.">Emotimonitor: A Trello Power-Up to Capture Emotions of Agile Teams</a></li>
+  <li class="secABT"><a href="https://ieeexplore.ieee.org/document/5656346">Real-Time EEG-Based Human Emotion Recognition and Visualization</a></li>
+  <li class="secDMS"><a href="https://dl.acm.org/doi/10.1145/3167132.3167296">DEVA: sensing emotions in the valence arousal space in software engineering text</a></li>
+  <li class="secDMS"><a href="https://ieeexplore.ieee.org/document/8811968">Socio-Technical Work-Rate Increase Associates With Changes in Work Patterns in Online Projects</a></li>
+</ul>
+</div>
+<!-- Starting of second List -->
+<!-- <div id="graph2">
+  <div>
+    <h1>Analysis Mapping List</h1>
+  </div>
+<ul id="xylist2">
+  <li id="l1a">Sentiments with Freq Distribution Analysis (FdistA)</li>
+  <li id="l1b">Sentiments with Freq Difference Analysis (FdifA)</li>
+  <li id="l1c">Sentiments with Machine Learning (ML)</li>
+  <li id="l2a">Sentiments with Thematic Analysis (TA)</li>
+  <li id="l2b">Sentiments with ML & FdistA</li>
+  <li id="l2c">Sentiments with FdistA & FdifA</li>
+  <li id="l2d">Affect with Distribution Analysis (FdistA)</li>
+  <li id="l2e">Affect with Machine Learning (ML)</li>
+  <li id="l3a">Affect with FdistA & FdifA</li>
+  <li id="l3b">Affect with RA & FdistA</li>
+  <li id="l3c">Mood with Freq Distribution Analysis (FdistA)</li>
+  <li id="l3d">Mood with Freq Difference Analysis (FdifA)</li>
+  <li id="l4a">Mood with ML & FdistA</li>
+  <li id="l4b">Mood Emotions with Correlation & FdistA</li>
+  <li id="l4c">Mood Emotions with RA & FdistA</li>
+  <li id="l4d">Other Emotions with Freq Distribution Analysis (FdistA)</li>
+  <li id="l4d">Other Emotions with Freq Difference Analysis (FdifA)</li>
+  <li id="l4d">Other Emotions with Machine Learning (ML)</li>
+  <li id="l4d">Other Emotions with Thematic Analysis (TA)</li>
+  <li id="l4d">Other Emotions with Factor Analysis (FA)</li>
+  <li id="l4d">Other Emotions with ML & FdistA</li>
+  <li id="l5a">Detection, Identification & Categorization with Freq Distribution Analysis (FdistA)</li>
+  <li id="l5b">Detection, Identification & Categorization with Freq Difference Analysis (FdifA)</li>
+  <li id="l5c">Detection, Identification & Categorization with Thematic Analysis (TA)</li>
+  <li id="l5d">Detection, Identification & Categorization with Regression Analysis (RA)</li>
+  <li id="l5e">Detection, Identification & Categorization with Factor Analysis (FA)</li>
+  <li id="l5f">Detection, Identification & Categorization with ML & FdistA</li>
+  <li id="l5g">Detection, Identification & Categorization with FdistA & FdifA</li>
+  <li id="l5h">Detection, Identification & Categorization with RA & FdistA</li>
+  <li id="l6a">Perception Interaction with Freq Distribution Analysis (FdistA)</li>
+  <li id="l6b">Perception Interaction with Freq Difference Analysis (FdifA)</li>
+  <li id="l6c">Perception Interaction with Factor Analysis (FA)</li>
+  <li id="l7a">Perception Interaction with FdistA & FdifA</li>
+  <li id="l7b">Similarity, Choice & Preference with Freq Distribution Analysis (FdistA)</li>
+  <li id="l7b">Similarity, Choice & Preference with FdistA & FdifA</li>
+  <li id="l8a">Universalism with Freq Difference Analysis (FdifA)</li>
+  <li id="l8b">Universalism with Thematic Analysis (TA)</li>
+  <li id="l9a">Universalism with Factor Analysis (FA)</li>
+  <li id="l9b">Universalism with Correlation & FdistA</li>
+  <li id="l9c">Stimulation with Freq Distribution Analysis (FdistA)</li>
+  <li id="l9d">Stimulation with Freq Difference Analysis (FdifA)</li>
+  <li id="l9e">Stimulation with Machine Learning (ML)</li>
+  <li id="l9f">Stimulation with Thematic Analysis (TA)</li>
+  <li id="l9f">Stimulation with Factor Analysis (FA)</li>
+  <li id="l9f">Stimulation with Correlation & FdistA</li>
+  <li id="l10a">Power with Freq Distribution Analysis (FdistA)</li>
+  <li id="l10a">Power with Thematic Analysis (TA)</li>
+  <li id="l10b">Power with Factor Analysis (FA)</li>
+  <li id="l10c">Power with Correlation & FdistA</li>
+  <li id="l11a">Tradition with Freq Distribution Analysis (FdistA)</li>
+  <li id="l11b">Tradition with Thematic Analysis (TA)</li>
+  <li id="l11a">Tradition with Factor Analysis (FA)</li>
+  <li id="l11b">Tradition with Correlation & FdistA</li>
+  <li id="l12a">Benevolence with Freq Distribution Analysis (FdistA)</li>
+  <li id="l12b">Benevolence with Freq Difference Analysis (FdifA)</li>
+  <li id="l12c">Benevolence with Machine Learning (ML)</li>
+  <li id="l12a">Benevolence with Thematic Analysis (TA)</li>
+  <li id="l12b">Benevolence with Factor Analysis (FA)</li>
+  <li id="l12c">Benevolence with Correlation & FdistA</li>
+  <li id="l13a">Achievement with Freq Distribution Analysis (FdistA)</li>
+  <li id="l13b">Achievement with Freq Difference Analysis (FdifA)</li>
+  <li id="l13b">Achievement with Thematic Analysis (TA)</li>
+  <li id="l13c">Achievement with Factor Analysis (FA)</li>
+  <li id="l13d">Achievement with ML & FdistA</li>
+  <li id="l13e">Achievement with Correlation & FdistA</li>
+  <li id="l14a">Conformity with Freq Distribution Analysis (FdistA)</li>
+  <li id="l14a">Conformity with Freq Difference Analysis (FdifA)</li>
+  <li id="l14a">Conformity with Machine Learning (ML)</li>
+  <li id="l14b">Conformity with Thematic Analysis (TA)</li>
+  <li id="l14c">Conformity with Factor Analysis (FA)</li>
+  <li id="l14d">Conformity with Correlation & FdistA</li>
+  <li id="l15a">Self-direction with Freq Distribution Analysis (FdistA)</li>
+  <li id="l15b">Self-direction with Freq Difference Analysis (FdifA)</li>
+  <li id="l15a">Self-direction with Machine Learning (ML)</li>
+  <li id="l15b">Self-direction with Thematic Analysis (TA)</li>
+  <li id="l15c">Self-direction with Factor Analysis (FA)</li>
+  <li id="l15d">Self-direction with Correlation & FdistA</li>
+  <li id="l16a">Security with Freq Distribution Analysis (FdistA)</li>
+  <li id="l16b">Security with Freq Difference Analysis (FdifA)</li>
+  <li id="l16c">Security with Thematic Analysis (TA)</li>
+  <li id="l16d">Security with Factor Analysis (FA)</li>
+  <li id="l16e">Security with ML & FdistA</li>
+  <li id="l16f">Security with FdistA & FdifA</li>
+  <li id="l16g">Security with Correlation & FdistA</li>
+  <li id="l16g">Security with RA & FdistA</li>
+</ul>
+
+</div> -->
+</body>
+
+</html>
+
